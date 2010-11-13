@@ -1,0 +1,12 @@
+Initializa lika dees:
+---------------------
+
+require 'confit'
+include Confit
+confit('path/to/config.yml')
+
+
+Usa lika dees:
+--------------
+
+puts confit.database # your_db.db
