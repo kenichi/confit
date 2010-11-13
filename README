@@ -1,6 +1,10 @@
+Install lika dees:
+------------------
+gem build confit.gemspec
+sudo gem install confit-0.0.1.gem
+
 Initializa lika dees:
 ---------------------
-
 require 'confit'
 include Confit
 confit('path/to/config.yml')
@@ -8,5 +12,4 @@ confit('path/to/config.yml')
 
 Usa lika dees:
 --------------
-
 puts confit.database # your_db.db
