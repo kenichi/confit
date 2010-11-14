@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name        = "confit"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.authors     = ['Jen Oslislo']
   s.email       = ["twitterpoeks@gmail.com"]
   s.homepage    = "https://github.com/poeks/confit"
-  s.summary     = "A teeny, tiny configuration manager."
-  s.description = "A teeny, tiny configuration manager."
+  s.summary     = "A teeny, tiny configuration manager for YAML config files."
+  s.description = "A teeny, tiny configuration manager for YAML config files."
 
   s.files        = Dir["{lib,test}/**/*"] + Dir["[A-Z]*"]
   s.require_path = "lib"

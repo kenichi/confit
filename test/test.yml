@@ -1,4 +1,5 @@
 dev:
-  app_name: AppName
+  app_name: Confit
   email: twitterpoeks@gmail.com
   author: Poeks
+  a key with spaces: Now underscores

@@ -5,15 +5,14 @@ Installation
 Initialization
 --------------
 * require 'confit'
-* include Confit
 * confit('path/to/config.yml')
 
 Usage
 -----
-* puts confit.database # your_db.db
+* puts confit.some_key # "The value of this key!"
 
 Notes
 -----
-* Optional initialization params include environment and verbose:
+* Optional initialization params include environment and strict mode:
 * confit('path/to/config.yml', 'development', true)
-* Verbose mode raises a NoMethodError if that key hasn't been loaded from your yaml file.
+* Strict mode raises a NoMethodError if that key hasn't been loaded from your yaml file.
