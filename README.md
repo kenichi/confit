@@ -1,7 +1,6 @@
 Installation
 ------------
-* gem build confit.gemspec
-* sudo gem install confit-0.0.1.gem
+* sudo gem install confit
 
 Initialization
 --------------
