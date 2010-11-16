@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "confit"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.authors     = ['Jen Oslislo']
   s.email       = ["twitterpoeks@gmail.com"]
   s.homepage    = "https://github.com/poeks/confit"
@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.require_path = "lib"
 
   s.rubyforge_project = s.name
-  s.required_rubygems_version = ">= 1.3.7"
+  s.required_rubygems_version = ">= 1.3.6"
 end
