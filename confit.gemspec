@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "confit"
-  s.version     = "0.0.4"
+  s.version     = "0.0.5"
   s.authors     = ['Jen Oslislo']
   s.email       = ["twitterpoeks@gmail.com"]
   s.homepage    = "https://github.com/poeks/confit"
