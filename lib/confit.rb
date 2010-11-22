@@ -13,9 +13,9 @@ module Confit
     key.gsub(/\s/, "_")
   end
   
-  def self.confit(file=nil, env=nil, strict=false)
+  def self.confit(file=nil, env=nil, strict=false, force=false)
 
-    @@app_config ? (return @@app_config) : @@app_config = OpenStruct.new
+    @@app_config ? (return @@app_config if not force) : @@app_config = OpenStruct.new
 
     @@strict = strict ? true : false
     
