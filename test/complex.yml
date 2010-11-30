@@ -1,0 +1,26 @@
+jo_dev:
+  app_name: jo dev
+  api_key: theapikey
+  secret_key: thesecret
+  canvas_page_name: jo_dev_test
+  callback_url: http://urldoesntexist.com
+  page_id: 12345
+  app_id: 56789
+  page_url: http://www.facebook.com/apps/application.php?id=56789
+  page_tab_url: http://www.facebook.com/apps/application.php?id=56789&v=app_56789
+  uid: 100000981545471
+
+poeks_dev:
+  app_name: poeks dev
+  api_key: thepoeksapikey
+  secret_key: thepoekssecretkey
+  canvas_page_name: poeks_dev_test
+  callback_url: http://urldontexist.com
+  page_id: 923048
+  app_id: 685490605
+  page_url: http://www.facebook.com/apps/application.php?id=685490605
+  page_tab_url: http://www.facebook.com/apps/application.php?id=685490605&v=app_685490605
+  uid: 655764281
+  a_hash: 
+    name: the hash
+    value: the value
