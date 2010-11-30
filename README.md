@@ -6,8 +6,8 @@ Installation
 
 Initialization
 --------------
-* require 'confit'
-* `confit('path/to/file_name.yml')`
+* `require 'confit'`
+`confit('path/to/file_name.yml')`
 
 Usage
 -----
