@@ -1,5 +1,6 @@
 require 'ostruct'
 require 'rubygems'
+require 'extlib'
 
 class InvalidFileNameError < StandardError; end
 class MissingVariableError < StandardError; end
@@ -12,6 +13,14 @@ module Confit
   @@files = Array.new
   @@current_file_name = nil
   @@debug = false
+  
+  def self.debug=(bool)
+    @@debug = bool
+  end
+  
+  def self.debug
+    @@debug
+  end
   
   def self.debug(msg)
     puts "\nDebug:\t#{msg}" if @@debug
