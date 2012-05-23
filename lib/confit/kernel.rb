@@ -1,9 +1,9 @@
 require 'confit'
 
 module Kernel
-  
-  def confit(file=nil, env=nil, strict=false, force=false)
-    Confit::confit(file, env, strict, force)
+
+  def confit(*args, &block)
+    Confit::confit(*args, &block)
   end
 
 end

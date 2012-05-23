@@ -24,3 +24,11 @@ poeks_dev:
   a_hash: 
     name: the hash
     value: the value
+
+foo:
+  bar:
+    num: 1
+    boo: false
+  baz:
+    num: 2
+    boo: true
